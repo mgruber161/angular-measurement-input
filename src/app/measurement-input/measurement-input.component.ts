@@ -9,7 +9,7 @@ export class MeasurementInputComponent implements OnInit {
   value = 17.3;
   sensor = 'Temperatur Wohnzimmer';
   units = ['°C', 'Watt', 'ppm'];
-  unit = this.units[0];
+  unit = '°C';
   constructor() {}
 
   ngOnInit() {}
